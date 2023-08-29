@@ -1,5 +1,2 @@
-- 👋 Hi, I’m @lai-huy
-- 👀 I’m interested in Minecraft
-- 🌱 I’m currently learning Artificial Intelligence and Cybersecurity
-- 💞️ I’m looking to collaborate on Machine Learning or Cybersecurity
-- 📫 How to reach me lai.huy@tamu.edu
+[![lai-huy's GitHub stats](https://github-readme-stats.vercel.app/api?username=lai-huy&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)  
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lai-huy&theme=tokyonight&langs_count=8&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
