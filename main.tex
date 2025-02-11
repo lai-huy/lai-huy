@@ -1,0 +1,219 @@
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{bold-extra}
+
+
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.9in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\setlength{\footskip}{4.35004pt}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-5pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0pt, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=10pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-10pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Huy Quang Lai} \\ \vspace{1pt}
+    \small \href{mailto:lai.huy.075@gmail.com}{\underline{lai.huy.075@gmail.com}} $|$
+    \href{https://www.linkedin.com/in/huy-lai-93a2b4211/}{\underline{linkedin.com/in/huy-lai-93a2b4211/}} $|$
+    \href{https://lai-huy.github.io}{\underline{lai-huy.github.io}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Texas A\&M University}{College Station, TX}
+      {Master of Computer Science }{Aug. 2024 -- May 2025}
+
+    \noindent
+    \small{GPA 3.750 / 4.000}
+  
+    \resumeSubheading
+      {Texas A\&M University}{College Station, TX}
+      {BS in Computer Science, cum laude, Minors in Cybersecurity and Mathematics}{Aug. 2021 -- May 2024}
+
+    \noindent
+    \small{GPA 3.609 / 4.000}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\vspace{-20pt}
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Contractor}{July 2024 - Present}
+      {Total Care 2U}{Waxahachie, TX}
+      \resumeItemListStart
+        \resumeItem{Automated the end-to-end ETL (Extract, Transform, Load) process for migrating patient medical data into an advanced Electronic Health Record (EHR) system}
+        \resumeItem{Ensured data integrity by validating patients' personal information for accuracy and completeness}
+        \resumeItem{Designed automated quality assurance procedures to verify data consistency across systems}
+        \resumeItem{Delivered detailed project demonstrations and progress updates to the team, fostering alignment and understanding}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+      {Product Owner and Developer}{Aug. 2023 -- Dec. 2023}
+      {Brazos Valley Council of Governments }{Bryan, TX}
+      \resumeItemListStart
+        \resumeItem{Spearheaded the development of a scalable full-stack application using Ruby on Rails, capable of managing over 400 contracts simultaneously}
+        \resumeItem{Implemented and rigorously tested 85+ individual features using Cucumber and RSpec to ensure high-quality code delivery}
+        \resumeItem{Acted as a liaison between developers and stakeholders to provide progress updates and gather feedback}
+        % \resumeItem{Coordinated team efforts to ensure timely completion of deliverables and adherence to project schedules}
+      \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {Simulation Team Lead}{Jan. 2022 -- May 2022}
+    %   {Texas A\&M University RoboMasters}{College Station, TX}
+    %   \resumeItemListStart
+    %     \resumeItem{Implemented a simulation environment using Unity to simulate the robots' color recognition}
+    %     \resumeItem{Integrated Computer Vision software written in Python into the simulation environment written in C\#}
+    %     \resumeItem{Communicated current simulation issues with team members and provided practical solutions}
+    %   \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+    \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, TypeScript, HTML/CSS, Ruby}\\
+    \textbf{Frameworks}{: React, Node.js, Next.js, Rails, PyTorch, TensorFlow, Pandas, Numpy, Matplotlib}\\
+    \textbf{Developer Tools}{: Git, Google Cloud Platform, VS Code, AWS, PyCharm, Eclipse, IntelliJ} 
+
+%-----------PROJECTS-----------
+\vspace{-5pt}
+\section{Projects}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+        {\textbf{Improving CLIP Training} $|$ \emph{torch, Self-Supervised Learning, Contrastive Learning}}{Aug. 2024 -- Dec 2024}
+        \resumeItemListStart
+            \resumeItem{Optimized bimodal contrastive SSL models using global contrastive loss for scalable image-text learning}
+            \resumeItem{Implemented SogCLR/iSogCLR, enhancing retrieval accuracy and zero-shot classification}
+            \resumeItem{Analyzed optimizers and loss functions to improve model convergence and multimodal generalization}
+        \resumeItemListEnd
+        
+        \resumeProjectHeading
+        {\textbf{ScriptSearch} $|$ \emph{Python, Cloud Functions, Firebase, Pub/Sub, Typesense}}{Jan. 2024 -- May 2024}
+        \resumeItemListStart
+            \resumeItem{Co-developed a YouTube transcript search platform, enabling efficient keyword-based video discovery}
+            \resumeItem{Engineered a scalable backend with Firebase and Pub/Sub for transcript indexing and search}
+            \resumeItem{Delivered a functional product in a 15-week collaborative team project}
+        \resumeItemListEnd
+
+        % \resumeProjectHeading
+        % {\textbf{StrassenMP} $|$ \emph{C++, OpenMP}}{Jan. 2024 -- May 2024}
+        % \resumeItemListStart
+            % \resumeItem{Implemented the Strassen's matrix multiplication leveraging OpenMP directives for parallelization.}
+            % \resumeItem{Conducted thorough  bench marking to evaluate the speedup and efficiency across various matrix sizes. }
+            % \resumeItem{Conducted rigorous testing and benchmarking to validate the correctness, efficiency, and scalability. }
+        % \resumeItemListEnd
+    
+        % \resumeProjectHeading
+        % {\textbf{Point of Sale System} $|$ \emph{JavaScript, React, Node.js, PostgreSQL}}{Jan. 2023 -- May 2023}
+        % \resumeItemListStart
+        %     \resumeItem{Collaborated with a team to develop a full-stack web application using Node.js serving REST APIs with React as the front-end}
+        %     \resumeItem{Implemented Google OAuth for administrative authentication}
+        %     \resumeItem{Implemented Google Translate API to translate the front-end text to various other languages}
+        % \resumeItemListEnd
+
+        \resumeProjectHeading
+        {\textbf{Mortality Prediction Model} $|$ \emph{Python, Jupyter Notebook, pandas, numpy}}{Jan. 2023 -- May 2023}
+        \resumeItemListStart
+            \resumeItem{Built a predictive model for in-hospital mortality using eICU clinical data, achieving an AUC-ROC score of $0.89$ with an XGBoostClassifier}
+            \resumeItem{Preprocessed data meticulously, performed feature engineering, and optimized hyperparameters for better predictive accuracy}
+            \resumeItem{Conducted feature importance analysis to identify critical factors influencing mortality risk}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
+
