@@ -32,7 +32,7 @@ jobs:
           latexmk -pdf -interaction=nonstopmode -shell-escape -file-line-error main.tex
 
       - name: Upload compiled PDF as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: compiled-pdf
           path: main.pdf
