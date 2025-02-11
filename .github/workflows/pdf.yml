@@ -21,21 +21,17 @@ jobs:
         uses: teatimeguest/setup-texlive-action@v2
         with:
           packages: >
-            scheme-basic
             latexmk
-            texlive-latex-recommended
-            texlive-fonts-recommended
-            texlive-latex-extra
 
       - name: Compile LaTeX document
         run: |
-          latexmk -pdf -interaction=nonstopmode -shell-escape -file-line-error main.tex
+          latexmk -pdf -interaction=nonstopmode -shell-escape -file-line-error resume.tex
 
       - name: Upload compiled PDF as artifact
         uses: actions/upload-artifact@v4
         with:
           name: compiled-pdf
-          path: main.pdf
+          path: resume.pdf
 
       - name: Commit and push compiled PDF
         run: |
