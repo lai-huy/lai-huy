@@ -14,30 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Set up TeX Live
-        uses: teatimeguest/setup-texlive-action@v2
+      - name: Compile LaTeX document 
+        uses: xu-cheng/latex-action@v3
         with:
-          packages: >
-            latexmk
-            pdftex
-
-      - name: Compile LaTeX document
-        run: |
-          latexmk -pdf -interaction=nonstopmode -shell-escape -file-line-error resume.tex
-
-      - name: Upload compiled PDF as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: compiled-pdf
-          path: resume.pdf
-
-      - name: Commit and push compiled PDF
-        run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
-          git add main.pdf
-          git commit -m 'Auto-compiled main.pdf' || echo "No changes to commit"
-          git push
+          root_file: resume.tex
