@@ -1,16 +1,14 @@
 name: Compile LaTeX Resume to README
-
+permissions: write-all
 on:
   push:
     paths:
       - resume.tex
-
 jobs:
   convert-resume:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Set up Git repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -23,7 +21,7 @@ jobs:
         run: |
           pandoc resume.tex -o README.md --from=latex --to=gfm --wrap=preserve
 
-      - name: Commit and push README.md
+      - name: Upload README.md
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
