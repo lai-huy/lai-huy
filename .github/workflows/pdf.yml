@@ -1,6 +1,9 @@
 name: Build LaTeX document
 permissions: write-all
-on: [push]
+on:
+  push:
+    paths:
+      - resume.tex
 jobs:
   build_latex:
     runs-on: ubuntu-latest
@@ -8,6 +11,7 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v4
         with:
+          fetch-depth: 0
           persistent-credentials: true
 
       - name: Compile LaTeX document
@@ -21,4 +25,5 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git add resume.pdf
           git commit -m "Update PDF file" || echo "No changes to commit"
-          git push
+          git pull --rebase origin main
+          git push || echo "Push failed. Re-run workflow if necessary."
