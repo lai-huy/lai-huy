@@ -1,6 +1,7 @@
 <div class="center">
 
-**<span class="smallcaps">Huy Quang Lai</span>**  
+**<span class="smallcaps">Huy Lai</span>**  
+Austin, Texas, United States of America  
 [<u>lai.huy.075@gmail.com</u>](mailto:lai.huy.075@gmail.com) $|$
 [<u>linkedin.com/in/huy-lai-93a2b4211/</u>](https://www.linkedin.com/in/huy-lai-93a2b4211/) $|$
 [<u>lai-huy.github.io</u>](https://lai-huy.github.io)
