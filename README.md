@@ -22,9 +22,9 @@ Austin, Texas, United States of America
 
 # Experience
 
-- |                                                            |                       |
-  |:-----------------------------------------------------------|----------------------:|
-  | **Software Engineer** $|$ Total Care 2U *— Waxahachie, TX* | *Jul. 2024 — Present* |
+- |                                                                                                   |                       |
+  |:--------------------------------------------------------------------------------------------------|----------------------:|
+  | **Software Engineer** $|$ [<u>Total Care 2U</u>](https://www.totalcare2u.com/) *— Waxahachie, TX* | *Jul. 2024 — Present* |
 
   - 
     Automated the end-to-end ETL (Extract, Transform, Load) process for migrating patient medical data into an advanced Electronic Health Record (EHR) system.
@@ -38,9 +38,9 @@ Austin, Texas, United States of America
   - 
     Presented progress demos to cross-functional teams to ensure stakeholder alignment and gather feedback.
 
-- |                                                         |                         |
-  |:--------------------------------------------------------|------------------------:|
-  | **Product Owner and Developer** $|$ BVCOG *— Bryan, TX* | *Aug. 2023 — Dec. 2023* |
+- |                                                                                          |                         |
+  |:-----------------------------------------------------------------------------------------|------------------------:|
+  | **Product Owner and Developer** $|$ [<u>BVCOG</u>](https://www.bvcog.org/) *— Bryan, TX* | *Aug. 2023 — Dec. 2023* |
 
   - 
     Spearheaded the development of a scalable full-stack application using Ruby on Rails, capable of managing over 400 contracts simultaneously.
