@@ -30,7 +30,7 @@ Austin, Texas, United States of America
     Automated the end-to-end ETL (Extract, Transform, Load) process for migrating patient medical data into an advanced Electronic Health Record (EHR) system.
 
   - 
-    Ensured data integrity by validating patients’ personal information for accuracy and completeness.
+    Validated patients’ personal information for accuracy and completeness to ensure data integrity.
 
   - 
     Designed automated quality assurance procedures to verify data consistency across systems.
@@ -49,7 +49,7 @@ Austin, Texas, United States of America
     Implemented and rigorously tested 85+ individual features using Cucumber and RSpec to ensure high-quality code delivery.
 
   - 
-    Served as the primary point of contact between developers and stakeholders, facilitating requirement gathering and iterative feedback loops.
+    Facilitated requirement gathering as primary liaison between developers and stakeholders, driving iterative feedback loops.
 
 # Technical Skills
 
