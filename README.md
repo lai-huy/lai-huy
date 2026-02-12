@@ -20,5 +20,3 @@
     <img height="150" align="center" src="./profile/top-langs.svg" />
   </a>
 </p>
-
-<iframe class="resume" title="Huy Lai Resume" src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://raw.githubusercontent.com/lai-huy/Resume/main/resume.pdf#zoom=page-width&amp;sidebar=0"></iframe>
