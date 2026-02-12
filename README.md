@@ -22,9 +22,25 @@ Austin, Texas, United States of America
 
 # Experience
 
-- |                                                                                                   |                       |
-  |:--------------------------------------------------------------------------------------------------|----------------------:|
-  | **Software Engineer** $|$ [<u>Total Care 2U</u>](https://www.totalcare2u.com/) *— Waxahachie, TX* | *Jul. 2024 — Present* |
+- |                                                                               |                       |
+  |:------------------------------------------------------------------------------|----------------------:|
+  | **Software Engineer** $|$ [<u>Visa</u>](https://usa.visa.com/) *— Austin, TX* | *Aug. 2025 — Present* |
+
+  - 
+    Engineered a Kafka MCP Server to automate resource provisioning via Jira, GitHub, and Wiki integration, reducing developer onboarding time from weeks to days.
+
+  - 
+    Collaborated in agile teams to deliver features for real-time payments and BNPL platforms.
+
+  - 
+    Enhanced user experience by optimizing UI performance and implementing clean, maintainable APIs across e-commerce applications.
+
+  - 
+    Diagnosed and escalated critical bugs, enhancing system reliability and browser compatibility.
+
+- |                                                                                                   |                         |
+  |:--------------------------------------------------------------------------------------------------|------------------------:|
+  | **Software Engineer** $|$ [<u>Total Care 2U</u>](https://www.totalcare2u.com/) *— Waxahachie, TX* | *Jul. 2024 — Jul. 2025* |
 
   - 
     Automated the end-to-end ETL (Extract, Transform, Load) process for migrating patient medical data into an advanced Electronic Health Record (EHR) system.
@@ -88,16 +104,3 @@ Austin, Texas, United States of America
 
   - 
     Delivered a full-stack app in 15 weeks through Agile development and user-driven design.
-
-- |                                                                              |                      |
-  |:-----------------------------------------------------------------------------|---------------------:|
-  | **Mortality Prediction Model** $|$ *Python, Jupyter Notebook, pandas, numpy* | Jan. 2023 — May 2023 |
-
-  - 
-    Built a predictive model for in-hospital mortality using eICU clinical data, achieving an AUC-ROC score of $0.89$ with an XGBoostClassifier.
-
-  - 
-    Preprocessed data meticulously, performed feature engineering, and optimized hyperparameters for better predictive accuracy.
-
-  - 
-    Conducted feature importance analysis to identify critical factors influencing mortality risk.
