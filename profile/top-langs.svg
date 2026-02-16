@@ -130,7 +130,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="160.59"
+          width="160.54"
           height="8"
           fill="#DA5B0B"
         />
@@ -138,9 +138,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="160.59"
+          x="160.54"
           y="0"
-          width="29.15"
+          width="29.14"
           height="8"
           fill="#222c37"
         />
@@ -148,7 +148,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="189.74"
+          x="189.68"
           y="0"
           width="19.3"
           height="8"
@@ -158,9 +158,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="209.04000000000002"
+          x="208.98000000000002"
           y="0"
-          width="18.36"
+          width="18.43"
           height="8"
           fill="#3178c6"
         />
@@ -168,9 +168,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="227.40000000000003"
+          x="227.41000000000003"
           y="0"
-          width="14.33"
+          width="14.32"
           height="8"
           fill="#199f4b"
         />
@@ -178,7 +178,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="241.73000000000005"
+          x="241.73000000000002"
           y="0"
           width="18.27"
           height="8"
@@ -191,7 +191,7 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#DA5B0B" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Jupyter Notebook 64.24%
+        Jupyter Notebook 64.22%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
@@ -212,7 +212,7 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#3178c6" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TypeScript 7.35%
+        TypeScript 7.37%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
