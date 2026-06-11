@@ -7,11 +7,12 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \usepackage{bold-extra}
+
+\usepackage[hidelinks]{hyperref}
 
 \input{glyphtounicode}
 
@@ -32,7 +33,7 @@
 \addtolength{\evensidemargin}{-0.75in}
 \addtolength{\textwidth}{1.5in}
 \addtolength{\topmargin}{-68pt}
-\addtolength{\textheight}{1.0in}
+\addtolength{\textheight}{1.4in}
 
 \urlstyle{same}
 
@@ -48,6 +49,11 @@
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
+\hypersetup{
+    pdftitle={HuyLaiResume},
+    pdfsubject={Huy Lai Resume},
+    pdfauthor={Huy Lai}
+}
 
 %-------------------------
 % Custom commands
@@ -111,29 +117,54 @@
     \href{https://lai-huy.github.io}{\underline{lai-huy.github.io}}
 \end{center}
 
-
-%-----------EDUCATION-----------
-\vspace{-12pt}
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeDegreeheading
-      {Texas A\&M University}{College Station, TX}
-      {Aug 2024 --- May 2025}{Master of Computer Science}
-      {3.700}
-  
-    \resumeDegreeheading
-      {Texas A\&M University}{College Station, TX}
-      {Aug 2021 --- May 2024}{BS in Computer Science, cum laude, Minors: Cybersecurity, Mathematics}
-      {3.594}
-      
-  \resumeSubHeadingListEnd
+%-----------PROGRAMMING SKILLS-----------
+\vspace{-14pt}
+\section{Technical Skills}
+\begin{tabularx}{\textwidth}{@{}X X X X@{}}
+\textbf{Languages} & \textbf{Frameworks \& Libraries} & \textbf{Data \& Messaging} & \textbf{DevOps \& Tools}\\[-7pt]
+\begin{itemize}[leftmargin=10pt, nosep, topsep=0pt]
+    \item Java
+    \item Python
+    \item C/C++
+    \item Ruby
+    \item SQL
+    \item JavaScript/TyptScript
+    \item HTML/CSS
+\end{itemize} &
+\begin{itemize}[leftmargin=10pt, nosep, topsep=0pt]
+    \item Spring Boot
+    \item React.js / Next.js
+    \item Node.js
+    \item Ruby on Rails
+    \item JUnit / Mockito
+    \item PyTorch / TensorFlow
+    \item Scikit Learn
+\end{itemize} &
+\begin{itemize}[leftmargin=10pt, nosep, topsep=0pt]
+    \item Apache Kafka
+    \item OpenSearch
+    \item Elasticsearch
+    \item PostgreSQL / Oracle
+    \item H2
+    \item AWS S3
+    \item Jackson
+\end{itemize} &
+\begin{itemize}[leftmargin=10pt, nosep, topsep=0pt]
+    \item Git / Docker / Maven
+    \item AWS / GCP
+    \item Nginx / Prometheus
+    \item Kibana
+    \item Firebase / Pub/Sub
+    \item VS Code / IntelliJ
+\end{itemize}
+\end{tabularx}
 
 %-----------EXPERIENCE-----------
-\vspace{-16pt}
+\vspace{-10pt}
 \section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Software Engineer}{\href{https://usa.visa.com/}{\underline{Visa}}}
+      {Software Engineer}{\href{https://usa.visa.com/}{\underline{Visa Inc.}}}
       {Austin, TX}{Aug 2025 --- Present}
       \resumeItemListStart
         \resumeItem{Engineered a Kafka MCP Server to automate resource provisioning via Jira, GitHub, and Wiki integration, reducing developer onboarding time from weeks to days.}
@@ -159,19 +190,26 @@
       {Bryan, TX}{Aug 2023 --- Dec 2023}
       \resumeItemListStart
         \resumeItem{Spearheaded the development of a scalable full-stack application using Ruby on Rails, capable of managing over 400 contracts simultaneously.}
-        \resumeItem{Implemented and rigorously tested 85+ individual features using Cucumber and RSpec to ensure high-quality code delivery.}
+        \resumeItem{Implemented and rigorously tested 85+ individual features using Cucumber and RSpec to ensure high-quality code delivery}
         \resumeItem{Facilitated requirement gathering as primary liaison between developers and stakeholders, driving iterative feedback loops.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
-
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
-\textbf{Languages:} Java, Python, C/C++, Ruby, SQL, JavaScript, TypeScript \\
-\textbf{Frameworks \& Libraries:} React.js, Next.js, Node.js, Ruby on Rails, PyTorch, TensorFlow, Scikit Learn \\
-\textbf{Tools:} Git, GCP, AWS, VS Code, IntelliJ, Eclipse, Firebase, Pub/Sub \\
-\textbf{Accessibility:} WCAG, ATAG, ARIA \\
-
+%-----------EDUCATION-----------
+\vspace{-10pt}
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeDegreeheading
+      {Texas A\&M University}{College Station, TX}
+      {May 2025}{Master of Computer Science}
+      {3.700}
+  
+    \resumeDegreeheading
+      {Texas A\&M University}{College Station, TX}
+      {May 2024}{BS in Computer Science, cum laude, Minors: Cybersecurity, Mathematics}
+      {3.594}
+      
+  \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------
 \vspace{-5pt}
