@@ -63,19 +63,19 @@
   }
 }
 
+% Date (and GPA) are placed inline on the heading line rather than in a
+% right-aligned tabular cell. Geometry-based extractors (markitdown/pdfminer)
+% column-group anything at the right margin and emit it out of order; keeping
+% the date in the normal left-to-right text flow makes it extract in sequence.
 \newcommand{\resumeDegreeheading}[5]{
   \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} $|$ #2 & #3 \\
-      \small#4 & GPA: \small #5 / 4.000 \\
-    \end{tabular*}\vspace{-7pt}
+    \textbf{#1} $\vert$ #2 $\vert$ {\small #3} $\vert$ {\small GPA: #5 / 4.000}\par\nobreak
+    {\small #4}\par\vspace{-7pt}
 }
 
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} $|$ #2 \textit{--- #3} & \textit{#4} \\
-    \end{tabular*}\vspace{-7pt}
+    \textbf{#1} $\vert$ #2 ; \textit{#3} $\vert$ \textit{#4}\par\vspace{-7pt}
 }
 
 
@@ -88,9 +88,7 @@
 
 \newcommand{\resumeProjectHeading}[2]{
     \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
+    {\small #1 $\vert$ #2}\par\vspace{-7pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-5pt}}
@@ -112,52 +110,24 @@
     \textbf{\Huge \scshape Huy Lai} \\ \vspace{1pt}
     \small{US Citizen} \\
     \small{Austin, Texas, United States of America} \\
-    \small \href{mailto:lai.huy.075@gmail.com}{\underline{lai.huy.075@gmail.com}} $|$
-    \href{https://www.linkedin.com/in/huy-lai-93a2b4211/}{\underline{linkedin.com/in/huy-lai-93a2b4211/}} $|$
+    \small \href{mailto:lai.huy.075@gmail.com}{\underline{lai.huy.075@gmail.com}} $\vert$
+    \href{https://www.linkedin.com/in/huy-lai-93a2b4211/}{\underline{linkedin.com/in/huy-lai-93a2b4211/}} $\vert$
     \href{https://lai-huy.github.io}{\underline{lai-huy.github.io}}
 \end{center}
 
 %-----------PROGRAMMING SKILLS-----------
+% START GENAI
 \vspace{-14pt}
 \section{Technical Skills}
-\begin{tabularx}{\textwidth}{@{}X X X X@{}}
-\textbf{Languages} & \textbf{Frameworks \& Libraries} & \textbf{Data \& Messaging} & \textbf{DevOps \& Tools}\\[-7pt]
-\begin{itemize}[leftmargin=10pt, nosep, topsep=0pt]
-    \item Java
-    \item Python
-    \item C/C++
-    \item Ruby
-    \item SQL
-    \item JavaScript/TyptScript
-    \item HTML/CSS
-\end{itemize} &
-\begin{itemize}[leftmargin=10pt, nosep, topsep=0pt]
-    \item Spring Boot
-    \item React.js / Next.js
-    \item Node.js
-    \item Ruby on Rails
-    \item JUnit / Mockito
-    \item PyTorch / TensorFlow
-    \item Scikit Learn
-\end{itemize} &
-\begin{itemize}[leftmargin=10pt, nosep, topsep=0pt]
-    \item Apache Kafka
-    \item OpenSearch
-    \item Elasticsearch
-    \item PostgreSQL / Oracle
-    \item H2
-    \item AWS S3
-    \item Jackson
-\end{itemize} &
-\begin{itemize}[leftmargin=10pt, nosep, topsep=0pt]
-    \item Git / Docker / Maven
-    \item AWS / GCP
-    \item Nginx / Prometheus
-    \item Kibana
-    \item Firebase / Pub/Sub
-    \item VS Code / IntelliJ
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+        \textbf{Languages}: Java, Python, C/C++, Ruby, SQL, JavaScript, TypeScript, HTML, CSS \\ \vspace{2pt}
+        \textbf{Frameworks \& Libraries}: Spring Boot, React.js, Next.js, Node.js, Ruby on Rails, JUnit, Mockito, PyTorch, TensorFlow, Scikit-Learn \\ \vspace{2pt}
+        \textbf{Data \& Messaging}: Apache Kafka, OpenSearch, Elasticsearch, PostgreSQL, Oracle, H2, AWS S3, Jackson \\ \vspace{2pt}
+        \textbf{DevOps \& Tools}: Git, Docker, Maven, AWS, GCP, Nginx, Prometheus, Kibana, Firebase, Pub/Sub, VS Code, IntelliJ
+    }}
 \end{itemize}
-\end{tabularx}
+% END GENAI
 
 %-----------EXPERIENCE-----------
 \vspace{-10pt}
@@ -206,7 +176,7 @@
   
     \resumeDegreeheading
       {Texas A\&M University}{College Station, TX}
-      {May 2024}{BS in Computer Science, cum laude, Minors: Cybersecurity, Mathematics}
+      {May 2024}{Bachelor of Science in Computer Science, cum laude, Minors: Cybersecurity, Mathematics}
       {3.594}
       
   \resumeSubHeadingListEnd
@@ -216,7 +186,7 @@
 \section{Projects}
     \resumeSubHeadingListStart
         \resumeProjectHeading
-        {\textbf{Improving CLIP Training} $|$ \emph{torch, Self-Supervised Learning, Contrastive Learning}}{Aug 2024 --- Dec 2024}
+        {\textbf{Improving CLIP Training} $\vert$ \emph{torch, Self-Supervised Learning, Contrastive Learning}}{Aug 2024 --- Dec 2024}
         \resumeItemListStart
             \resumeItem{Optimized bimodal contrastive SSL models using global contrastive loss for scalable image-text learning.}
             \resumeItem{Implemented SogCLR/iSogCLR, enhancing retrieval accuracy and zero-shot classification.}
@@ -224,7 +194,7 @@
         \resumeItemListEnd
         
         \resumeProjectHeading
-        {\textbf{ScriptSearch} $|$ \emph{Python, Cloud Functions, Firebase, Pub/Sub, Typesense}}{Jan 2024 --- May 2024}
+        {\textbf{ScriptSearch} $\vert$ \emph{Python, Cloud Functions, Firebase, Pub/Sub, Typesense}}{Jan 2024 --- May 2024}
         \resumeItemListStart
             \resumeItem{Built a transcript-based YouTube search engine with fast, keyword-driven results and timestamped links.}
             \resumeItem{Engineered a scalable scraping pipeline using Golang, Pub/Sub, and Firebase Functions.}
