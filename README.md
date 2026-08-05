@@ -12,6 +12,12 @@
 </a>
 </p>
 
-
-[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=lai-huy&rank_icon=percentile&show=reviews%2Cdiscussions_started%2Cdiscussions_answered%2Cprs_merged%2Cprs_merged_percentage%2Cprs_commented%2Cprs_reviewed%2Cissues_commented&show_icons=true&include_all_commits=true&theme=solarized-dark)](https://github-stats-extended.vercel.app/api?username=lai-huy&rank_icon=percentile&show=reviews%2Cdiscussions_started%2Cdiscussions_answered%2Cprs_merged%2Cprs_merged_percentage%2Cprs_commented%2Cprs_reviewed%2Cissues_commented&show_icons=true&include_all_commits=true&theme=solarized-dark)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=lai-huy&layout=compact&langs_count=5&theme=solarized-dark)](https://github-stats-extended.vercel.app/api/top-langs?username=lai-huy&layout=compact&langs_count=5&theme=solarized-dark)
+<p align="center">
+<a>
+  <img src="https://github-stats-extended.vercel.app/api?username=lai-huy&rank_icon=percentile&show=reviews%2Cdiscussions_started%2Cdiscussions_answered%2Cprs_merged%2Cprs_merged_percentage%2Cprs_commented%2Cprs_reviewed%2Cissues_commented&show_icons=true&include_all_commits=true&theme=solarized-dark" />  
+</a>
+<br />  
+<a href="https://github.com/lai-huy/" alt="GitHub Profile align="center">
+  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=lai-huy&layout=compact&langs_count=5&theme=solarized-dark" />
+</a>
+</p>
